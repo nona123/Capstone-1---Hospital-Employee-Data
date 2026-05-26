@@ -112,21 +112,6 @@ elif dataKaryawan == 3:
     
     # print after delete
     dataKaryawanHospital(dictDataKaryawanHospital)
-    '''
-    if 0 <= noListKaryawan < len(dictDataKaryawanHospital['ID Karyawan']):
-        del dictDataKaryawanHospital['ID Karyawan'][noListKaryawan]
-        del dictDataKaryawanHospital['Nama Karyawan'][noListKaryawan]
-        del dictDataKaryawanHospital['Jabatan'][noListKaryawan]
-        del dictDataKaryawanHospital['Divisi'][noListKaryawan]
-        del dictDataKaryawanHospital['Tahun Masuk'][noListKaryawan]
-        del dictDataKaryawanHospital['Tahun Terakhir'][noListKaryawan]
-        del dictDataKaryawanHospital['Status'][noListKaryawan]
-        del dictDataKaryawanHospital['Tanggal Lahir'][noListKaryawan]
-        print("Data Karyawan berhasil dihapus")
-    else:
-        print("Data Karyawan tidak valid!")
-        
-    dataKaryawanHospital(dictDataKaryawanHospital)'''
         
 # 4/ Mengubah Data Karyawan
 elif dataKaryawan == 4:
